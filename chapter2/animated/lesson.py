@@ -150,7 +150,7 @@ class S02Basics(Lesson):
         self.play(FadeOut(VGroup(vtext, arr, ring, z, cfg[2])), run_time=0.5)
 
         # --- give / grab / full
-        self.play(atom.animate.scale(0.62).move_to(LEFT * 4.6 + DOWN * 0.1), run_time=0.8)
+        self.play(atom.animate.scale(0.62).move_to(LEFT * 4.6 + UP * 0.45), run_time=0.8)
         na_lab = VGroup(B("Na  2, 8, 1", 34), B("gives 1 away", 28, S_COL), B("METAL", 30, S_COL)).arrange(DOWN, buff=0.1)
         na_lab.next_to(atom, DOWN, buff=0.3)
         with self.say("Sodium has just one, and it would happily give it away. Elements that give away electrons are metals."):
@@ -160,7 +160,7 @@ class S02Basics(Lesson):
             plus = B("+", 40, GOLD).next_to(atom.nucleus, UR, buff=0.05)
             self.play(FadeIn(plus, scale=2), FadeIn(na_lab[1:], shift=UP * 0.2), run_time=0.7)
 
-        cl = Atom("Cl", [2, 8, 8], r0=0.45, step=0.55).scale(0.62).move_to(DOWN * 0.1)
+        cl = Atom("Cl", [2, 8, 8], r0=0.45, step=0.55).scale(0.62).move_to(UP * 0.45)
         new_e = cl.shells[2][7]
         cl.shells[2].remove(new_e)
         cl_lab = VGroup(B("Cl  2, 8, 7", 34), B("grabs 1", 28, P_COL), B("NON-METAL", 30, P_COL)).arrange(DOWN, buff=0.1)
@@ -176,7 +176,7 @@ class S02Basics(Lesson):
             minus = B("−", 40, GOLD).next_to(cl.nucleus, UR, buff=0.05)
             self.play(Flash(new_e, color=GOLD), FadeIn(minus, scale=2), FadeIn(cl_lab[1:], shift=UP * 0.2), run_time=0.7)
 
-        ar = Atom("Ar", [2, 8, 8], r0=0.45, step=0.55).scale(0.62).move_to(RIGHT * 4.6 + DOWN * 0.1)
+        ar = Atom("Ar", [2, 8, 8], r0=0.45, step=0.55).scale(0.62).move_to(RIGHT * 4.6 + UP * 0.45)
         ar_lab = VGroup(B("Ar  2, 8, 8", 34), B("full shell", 28, GOOD), B("NO REACTION", 30, GOOD)).arrange(DOWN, buff=0.1)
         ar_lab.next_to(ar, DOWN, buff=0.3)
         with self.say("And argon, 2, 8, 8, has a full top floor. Totally happy. It does not react at all."):
@@ -869,7 +869,7 @@ class S07Trends(Lesson):
         h = self.heading("Trends: just TWO reasons")
         r1 = VGroup(card(5.8, 2.6, stroke=GOLD, sw=4))
         r1.add(VGroup(B("Reason 1 →", 40, GOLD), T("Across a period:", 32, MUTED),
-                      B("same floors, more protons", 34)).arrange(DOWN, buff=0.2).move_to(r1[0]))
+                      B("same floors, more protons", 34)).arrange(DOWN, buff=0.2).scale_to_fit_width(5.2).move_to(r1[0]))
         r2 = VGroup(card(5.8, 2.6, stroke=P_COL, sw=4))
         r2.add(VGroup(B("Reason 2 ↓", 40, P_COL), T("Down a group:", 32, MUTED),
                       B("a new floor is added", 34)).arrange(DOWN, buff=0.2).move_to(r2[0]))

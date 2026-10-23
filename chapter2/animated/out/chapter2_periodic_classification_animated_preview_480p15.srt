@@ -643,23 +643,23 @@ In 1913, a young English scientist, Henry Moseley, fixed all of this with one si
 idea.
 
 162
-00:08:04,657 --> 00:08:08,192
+00:08:04,656 --> 00:08:08,192
 Imagine your teacher arranging the class by weight.
 
 163
-00:08:08,192 --> 00:08:10,480
+00:08:08,192 --> 00:08:10,479
 Two students weigh 42 kilos each.
 
 164
-00:08:10,480 --> 00:08:11,589
+00:08:10,479 --> 00:08:11,588
 Who comes first?
 
 165
-00:08:11,589 --> 00:08:12,768
+00:08:11,588 --> 00:08:12,767
 Confusing, right?
 
 166
-00:08:13,057 --> 00:08:15,089
+00:08:13,056 --> 00:08:15,089
 Now arrange by roll number.
 
 167
@@ -667,19 +667,19 @@ Now arrange by roll number.
 1, 2, 3, 4.
 
 168
-00:08:15,917 --> 00:08:18,176
+00:08:15,917 --> 00:08:18,175
 Always clear, never confusing.
 
 169
-00:08:18,176 --> 00:08:22,015
+00:08:18,175 --> 00:08:22,014
 For elements, the roll number is the atomic number.
 
 170
-00:08:22,857 --> 00:08:26,220
+00:08:22,856 --> 00:08:26,219
 Cobalt's roll number is 27, nickel's is 28.
 
 171
-00:08:26,220 --> 00:08:28,800
+00:08:26,219 --> 00:08:28,800
 So cobalt comes first, naturally.
 
 172
@@ -687,27 +687,27 @@ So cobalt comes first, naturally.
 No rule broken.
 
 173
-00:08:29,973 --> 00:08:30,990
+00:08:29,973 --> 00:08:30,989
 And isotopes?
 
 174
-00:08:30,990 --> 00:08:35,135
+00:08:30,989 --> 00:08:35,134
 Chlorine 35 and chlorine 37 both have roll number 17.
 
 175
-00:08:35,135 --> 00:08:37,325
+00:08:35,134 --> 00:08:37,324
 So they share the same seat.
 
 176
-00:08:37,325 --> 00:08:38,498
+00:08:37,324 --> 00:08:38,497
 Problem solved!
 
 177
-00:08:39,857 --> 00:08:42,944
+00:08:39,856 --> 00:08:42,944
 <font color="#c084fc">But why is atomic number better than mass?</font>
 
 178
-00:08:42,944 --> 00:08:45,297
+00:08:42,944 --> 00:08:45,296
 <font color="#c084fc">They both go up together anyway.</font>
 
 179
@@ -715,43 +715,43 @@ Problem solved!
 Here's the deep reason.
 
 180
-00:08:47,045 --> 00:08:49,007
+00:08:47,045 --> 00:08:49,006
 Chemistry is done by electrons.
 
 181
-00:08:49,007 --> 00:08:53,815
+00:08:49,006 --> 00:08:53,814
 And the number of electrons equals the number of protons, the atomic number.
 
 182
-00:08:53,815 --> 00:08:55,270
+00:08:53,814 --> 00:08:55,269
 Neutrons only add mass.
 
 183
-00:08:55,270 --> 00:08:57,737
+00:08:55,269 --> 00:08:57,737
 They don't change the electrons at all.
 
 184
-00:08:57,737 --> 00:09:02,862
+00:08:57,737 --> 00:09:02,861
 So mass carries extra noise from neutrons, but atomic number tells exactly how an
 
 185
-00:09:02,862 --> 00:09:04,127
+00:09:02,861 --> 00:09:04,127
 element will behave.
 
 186
-00:09:05,524 --> 00:09:07,767
+00:09:05,523 --> 00:09:07,766
 So the law changed by just one word.
 
 187
-00:09:07,767 --> 00:09:12,191
+00:09:07,766 --> 00:09:12,190
 Properties of elements are a periodic function of their atomic numbers.
 
 188
-00:09:12,191 --> 00:09:13,374
+00:09:12,190 --> 00:09:13,374
 Mass became number.
 
 189
-00:09:13,374 --> 00:09:15,306
+00:09:13,374 --> 00:09:15,305
 That's the modern periodic law.
 
 190
@@ -975,11 +975,11 @@ Now the trends.
 Many students try to memorise lots of arrows, and then forget them in the exam.
 
 245
-00:12:15,640 --> 00:12:16,035
+00:12:15,640 --> 00:12:16,036
 Don't.
 
 246
-00:12:16,035 --> 00:12:17,747
+00:12:16,036 --> 00:12:17,747
 You only need two reasons.
 
 247
@@ -1231,27 +1231,27 @@ Quick test!
 Three questions.
 
 309
-00:15:24,144 --> 00:15:26,861
+00:15:24,144 --> 00:15:26,862
 Try to answer before the timer runs out.
 
 310
-00:15:27,176 --> 00:15:28,853
+00:15:27,177 --> 00:15:28,854
 An element is 2, 8, 2.
 
 311
-00:15:28,853 --> 00:15:31,064
+00:15:28,854 --> 00:15:31,064
 Which period and which group?
 
 312
-00:15:31,064 --> 00:15:32,436
+00:15:31,064 --> 00:15:32,437
 And is it a metal?
 
 313
-00:15:38,510 --> 00:15:40,529
+00:15:38,510 --> 00:15:40,530
 Three floors, so period 3.
 
 314
-00:15:40,529 --> 00:15:43,171
+00:15:40,530 --> 00:15:43,171
 Two valence electrons, so group 2.
 
 315
@@ -1267,15 +1267,15 @@ Who left empty spaces in his table?
 And what was eka-aluminium later called?
 
 318
-00:15:57,576 --> 00:15:58,280
+00:15:57,577 --> 00:15:58,281
 Mendeleev.
 
 319
-00:15:58,280 --> 00:16:00,322
+00:15:58,281 --> 00:16:00,323
 And eka-aluminium is gallium.
 
 320
-00:16:01,976 --> 00:16:04,966
+00:16:01,977 --> 00:16:04,966
 Which atom is bigger, sodium or potassium?
 
 321
@@ -1283,11 +1283,11 @@ Which atom is bigger, sodium or potassium?
 And why?
 
 322
-00:16:11,576 --> 00:16:12,191
+00:16:11,577 --> 00:16:12,191
 Potassium.
 
 323
-00:16:12,191 --> 00:16:14,833
+00:16:12,191 --> 00:16:14,834
 Going down the group, a new floor is added.
 
 324
@@ -1299,23 +1299,23 @@ So, was it hard?
 Three basics.
 
 326
-00:16:19,410 --> 00:16:20,203
+00:16:19,410 --> 00:16:20,204
 One story.
 
 327
-00:16:20,203 --> 00:16:21,155
+00:16:20,204 --> 00:16:21,156
 Two reasons.
 
 328
-00:16:21,155 --> 00:16:23,218
+00:16:21,156 --> 00:16:23,218
 That is the whole chapter.
 
 329
-00:16:23,510 --> 00:16:24,272
+00:16:23,510 --> 00:16:24,273
 Myth busted!
 
 330
-00:16:24,272 --> 00:16:28,023
+00:16:24,273 --> 00:16:28,023
 Now send this video to the friend who said science is hard.
 
 331
