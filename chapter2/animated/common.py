@@ -51,15 +51,39 @@ class Lesson(Scene):
         self.cues = []
 
     @contextmanager
-    def say(self, text):
-        path, dur = speak(text)
+    def say(self, text, who="teacher"):
+        path, dur = speak(text, who)
         start = self.renderer.time
         self.add_sound(path)
-        self.cues.append({"start": start, "dur": dur, "text": text})
+        self.cues.append({"start": start, "dur": dur, "text": text, "who": who})
         yield dur
         left = dur + PAUSE - (self.renderer.time - start)
         if left > 0.01:
             self.wait(left)
+
+    @contextmanager
+    def doubt(self, question):
+        """A student asks a doubt (second voice). Current content steps aside,
+        the body of the `with` answers it, then the content comes back."""
+        saved = list(self.mobjects)
+        if saved:
+            self.play(*[FadeOut(m) for m in saved], run_time=0.5)
+        kid = student(F_COL, 0.85).move_to([-5.9, 2.55, 0])
+        q = B(question, 34)
+        bub = RoundedRectangle(corner_radius=0.25, width=q.width + 0.7, height=q.height + 0.55,
+                               fill_color=PANEL, fill_opacity=1, stroke_color=F_COL, stroke_width=4)
+        q.move_to(bub)
+        bubble = VGroup(bub, q).next_to(kid, RIGHT, buff=0.55).align_to(kid, UP).shift(UP * 0.15)
+        tail = Polygon(bub.get_left() + UP * 0.12, bub.get_left() + DOWN * 0.22, kid.get_right() + RIGHT * 0.08 + UP * 0.1,
+                       fill_color=F_COL, fill_opacity=1, stroke_width=0)
+        tag = B("DOUBT!", 24, F_COL).next_to(kid, DOWN, buff=0.12)
+        with self.say(question.replace("\n", " "), who="student"):
+            self.play(FadeIn(kid, shift=UP * 0.4), FadeIn(tag), run_time=0.4)
+            self.play(GrowFromPoint(bubble, kid.get_right()), FadeIn(tail), run_time=0.5)
+        yield bubble.get_bottom()[1]
+        self.play(*[FadeOut(m) for m in self.mobjects], run_time=0.5)
+        if saved:
+            self.play(*[FadeIn(m) for m in saved], run_time=0.5)
 
     def line(self, text, *anims, run_time=None):
         """Narrate one line while playing anims at its start."""
@@ -80,6 +104,14 @@ class Lesson(Scene):
     def heading(self, s, color=GOLD):
         h = B(s, 44, color).to_edge(UP, buff=0.45)
         return h
+
+
+def student(color, h=1.0):
+    head = Circle(radius=0.22 * h, fill_color=color, fill_opacity=1, stroke_width=0)
+    body = RoundedRectangle(corner_radius=0.18 * h, width=0.6 * h, height=0.8 * h, fill_color=color,
+                            fill_opacity=1, stroke_width=0)
+    head.next_to(body, UP, buff=0.06)
+    return VGroup(body, head)
 
 
 # ---------------------------------------------------------------- atom
