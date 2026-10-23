@@ -13,3 +13,10 @@ Lessons for Maharashtra SSC Class 10 Science, built "basics first": refresh what
 2. Run `python3 chapter2/make_video.py`. It creates `chapter2/chapter2_periodic_classification.mp4` with the voice, and timing follows the speech.
 
 Needs Python 3 with Pillow, ffmpeg, and the Inter font.
+
+## Chapter 2 — animated version (recommended)
+`chapter2/animated/` is a fully animated lesson (Manim): atoms fill their shells, the periodic table builds itself, and a student asks "Doubt!" questions that get answered (why mass and not atomic number, why 2,8,8,1 and not 2,8,9, why atoms shrink across a period, and more).
+
+- `chapter2/animated/out/chapter2_periodic_classification_animated_preview.mp4` — full HD, about 16.5 min, stand-in voice.
+- `lesson.py` — scenes and narration; `build.py` renders, joins and adds subtitles.
+- With `ELEVENLABS_API_KEY` set (optionally `ELEVENLABS_VOICE_ID` for the teacher and `ELEVENLABS_STUDENT_VOICE_ID` for the student), run `/opt/mvenv/bin/python chapter2/animated/build.py` to make the final voiced video. Animation timing follows the voice automatically.
