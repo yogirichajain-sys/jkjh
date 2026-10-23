@@ -38,6 +38,13 @@ def T(s, size=36, color=INK, weight=NORMAL, **kw):
     return Text(s, font=FONT, font_size=size, color=color, weight=weight, **kw)
 
 
+def fit(m, width):
+    """Shrink a mobject to `width` if it is wider."""
+    if m.width > width:
+        m.scale_to_fit_width(width)
+    return m
+
+
 def B(s, size=36, color=INK, **kw):
     return T(s, size, color, BOLD, **kw)
 

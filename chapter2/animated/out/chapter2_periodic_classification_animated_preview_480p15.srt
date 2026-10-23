@@ -1,0 +1,1323 @@
+1
+00:00:00,000 --> 00:00:02,162
+Your friend says science is hard?
+
+2
+00:00:02,162 --> 00:00:03,211
+Let's test that.
+
+3
+00:00:04,733 --> 00:00:07,634
+This is the periodic table.
+
+4
+00:00:07,634 --> 00:00:09,031
+118 elements.
+
+5
+00:00:09,031 --> 00:00:10,106
+118 boxes.
+
+6
+00:00:10,106 --> 00:00:12,147
+Looks scary, right?
+
+7
+00:00:12,467 --> 00:00:16,988
+But by the end of this video, you will be able to point at any box and tell its
+
+8
+00:00:16,988 --> 00:00:17,331
+story.
+
+9
+00:00:17,331 --> 00:00:18,190
+And the secret?
+
+10
+00:00:18,190 --> 00:00:20,536
+You already learned it in fifth standard.
+
+11
+00:00:21,467 --> 00:00:22,231
+Chapter 2.
+
+12
+00:00:22,231 --> 00:00:24,982
+Periodic Classification of Elements.
+
+13
+00:00:24,982 --> 00:00:25,670
+Let's go!
+
+14
+00:00:28,266 --> 00:00:30,408
+Every atom is like a tiny building.
+
+15
+00:00:30,408 --> 00:00:34,019
+In the centre is the nucleus, packed with positive protons.
+
+16
+00:00:34,866 --> 00:00:38,581
+<font color="#c084fc">Why don't the electrons just fly away from the nucleus?</font>
+
+17
+00:00:38,866 --> 00:00:39,792
+Good question!
+
+18
+00:00:39,792 --> 00:00:43,034
+Protons are positive, and electrons are negative.
+
+19
+00:00:43,034 --> 00:00:44,490
+And opposites attract.
+
+20
+00:00:44,490 --> 00:00:49,320
+The nucleus keeps pulling the electrons, like a magnet holding iron pins.
+
+21
+00:00:49,320 --> 00:00:50,578
+Remember this pull.
+
+22
+00:00:50,578 --> 00:00:53,688
+It explains almost every trend in this chapter.
+
+23
+00:00:55,066 --> 00:00:58,616
+Count the protons, and you get the atomic number, Z.
+
+24
+00:00:58,616 --> 00:01:01,415
+Think of it as the element's roll number.
+
+25
+00:01:01,415 --> 00:01:05,374
+Hydrogen is roll number 1, helium 2, lithium 3, and so on.
+
+26
+00:01:05,374 --> 00:01:07,832
+No two elements share a roll number.
+
+27
+00:01:08,732 --> 00:01:14,524
+Around the nucleus, electrons live on floors called shells: K, L, M and N.
+
+28
+00:01:14,524 --> 00:01:18,047
+Each floor has a seat limit: 2, 8, 18 and 32.
+
+29
+00:01:18,047 --> 00:01:19,925
+That's just 2 n squared.
+
+30
+00:01:20,266 --> 00:01:21,660
+Let's fill sodium.
+
+31
+00:01:21,660 --> 00:01:25,224
+Its roll number is 11, so it has 11 electrons.
+
+32
+00:01:25,224 --> 00:01:26,851
+2 on the first floor.
+
+33
+00:01:26,851 --> 00:01:28,091
+8 on the second.
+
+34
+00:01:28,091 --> 00:01:30,802
+And 1 lonely electron on the third.
+
+35
+00:01:30,802 --> 00:01:32,197
+Sodium is 2, 8, 1.
+
+36
+00:01:32,532 --> 00:01:35,676
+That top floor electron is called the valence electron.
+
+37
+00:01:35,676 --> 00:01:39,105
+It is the one at the window, the one that meets other atoms.
+
+38
+00:01:39,105 --> 00:01:41,333
+And it decides how the element behaves.
+
+39
+00:01:42,999 --> 00:01:46,227
+Sodium has just one, and it would happily give it away.
+
+40
+00:01:46,227 --> 00:01:48,868
+Elements that give away electrons are metals.
+
+41
+00:01:49,199 --> 00:01:50,626
+Chlorine is 2, 8, 7.
+
+42
+00:01:50,626 --> 00:01:55,048
+It needs just one more to fill its top floor, so it grabs one.
+
+43
+00:01:55,048 --> 00:01:58,186
+Elements that grab electrons are non-metals.
+
+44
+00:01:58,532 --> 00:02:01,615
+And argon, 2, 8, 8, has a full top floor.
+
+45
+00:02:01,615 --> 00:02:02,667
+Totally happy.
+
+46
+00:02:02,667 --> 00:02:04,547
+It does not react at all.
+
+47
+00:02:05,466 --> 00:02:08,483
+<font color="#c084fc">Why does sodium give away 1 electron?</font>
+
+48
+00:02:08,483 --> 00:02:10,766
+<font color="#c084fc">Why not grab 7 more instead?</font>
+
+49
+00:02:11,066 --> 00:02:11,978
+Think about it.
+
+50
+00:02:11,978 --> 00:02:15,869
+Getting rid of 1 electron is much easier than collecting 7 more.
+
+51
+00:02:15,869 --> 00:02:20,003
+Chlorine is the opposite: grabbing 1 is easier than throwing away 7.
+
+52
+00:02:20,003 --> 00:02:23,225
+Atoms always take the easy way to a full outer shell.
+
+53
+00:02:23,225 --> 00:02:27,542
+That's why metals have few valence electrons, and non-metals have many.
+
+54
+00:02:29,532 --> 00:02:33,791
+So remember three things: roll number, floors, and top floor electrons.
+
+55
+00:02:33,791 --> 00:02:38,768
+Honestly, the rest of this chapter is just these three, wearing different costumes.
+
+56
+00:02:39,663 --> 00:02:41,628
+Now, a puzzle that took 100 years.
+
+57
+00:02:41,628 --> 00:02:46,482
+In the eighteen hundreds, scientists kept discovering new elements, but there was no
+
+58
+00:02:46,482 --> 00:02:46,829
+order.
+
+59
+00:02:46,829 --> 00:02:49,776
+Like a cupboard where everything is just thrown in.
+
+60
+00:02:50,663 --> 00:02:52,821
+Four scientists tried to bring order.
+
+61
+00:02:52,821 --> 00:02:54,454
+Let's meet them, one by one.
+
+62
+00:02:55,330 --> 00:02:57,253
+First, Dobereiner, in 1817.
+
+63
+00:02:57,253 --> 00:03:01,954
+He found groups of three similar elements, and called them triads.
+
+64
+00:03:01,954 --> 00:03:04,874
+And they had a magic trick hidden inside.
+
+65
+00:03:05,196 --> 00:03:08,084
+Take lithium, 7, and potassium, 39.
+
+66
+00:03:08,084 --> 00:03:09,157
+Add them: 46.
+
+67
+00:03:09,157 --> 00:03:10,560
+Half of that: 23.
+
+68
+00:03:10,560 --> 00:03:13,777
+And sodium's atomic mass is exactly 23!
+
+69
+00:03:13,777 --> 00:03:17,655
+The middle one is the average of the other two.
+
+70
+00:03:17,996 --> 00:03:20,890
+It works for calcium, strontium and barium.
+
+71
+00:03:20,890 --> 00:03:23,649
+And for chlorine, bromine and iodine too.
+
+72
+00:03:23,649 --> 00:03:26,072
+But he could find only a few triads.
+
+73
+00:03:26,072 --> 00:03:27,822
+Most elements had no team.
+
+74
+00:03:27,822 --> 00:03:30,850
+So this idea could not classify all elements.
+
+75
+00:03:31,730 --> 00:03:34,458
+<font color="#c084fc">Why did they arrange elements by mass?</font>
+
+76
+00:03:34,458 --> 00:03:36,252
+<font color="#c084fc">Why not by atomic number?</font>
+
+77
+00:03:36,596 --> 00:03:41,347
+Because back then, nobody knew about protons or electrons inside the atom!
+
+78
+00:03:41,347 --> 00:03:45,521
+The only thing scientists could measure was how heavy an atom is.
+
+79
+00:03:45,521 --> 00:03:48,217
+So atomic mass was the best tool they had.
+
+80
+00:03:48,217 --> 00:03:50,721
+Atomic number came much later, in 1913.
+
+81
+00:03:52,730 --> 00:03:54,510
+Next, Newlands, in 1866.
+
+82
+00:03:54,510 --> 00:04:00,739
+He lined up the elements in increasing order of atomic mass, starting from hydrogen,
+
+83
+00:04:00,739 --> 00:04:03,928
+all the way to thorium, 56 elements in all.
+
+84
+00:04:04,263 --> 00:04:06,804
+And he noticed something musical.
+
+85
+00:04:06,804 --> 00:04:10,192
+Every eighth element behaves like the first.
+
+86
+00:04:10,192 --> 00:04:13,811
+Sa, re, ga, ma, pa, dha, ni, and then sa again!
+
+87
+00:04:13,811 --> 00:04:16,275
+He called it the law of octaves.
+
+88
+00:04:16,596 --> 00:04:20,597
+Look: lithium, sodium and potassium land in the same column.
+
+89
+00:04:20,597 --> 00:04:22,531
+All three are similar metals.
+
+90
+00:04:22,531 --> 00:04:25,132
+Fluorine and chlorine are together too.
+
+91
+00:04:25,132 --> 00:04:25,798
+Beautiful!
+
+92
+00:04:26,130 --> 00:04:28,592
+But after calcium, the music went off-key.
+
+93
+00:04:28,592 --> 00:04:33,164
+He squeezed cobalt and nickel into one box, and put them in the same column as
+
+94
+00:04:33,164 --> 00:04:34,453
+fluorine and chlorine.
+
+95
+00:04:34,453 --> 00:04:37,033
+That's like putting a cat in a team of fish!
+
+96
+00:04:37,033 --> 00:04:40,022
+And he assumed no new elements would ever be found.
+
+97
+00:04:40,863 --> 00:04:43,371
+<font color="#c084fc">Why did the pattern break after calcium?</font>
+
+98
+00:04:43,663 --> 00:04:48,709
+Because after calcium, ten new elements squeeze in between: the transition metals,
+
+99
+00:04:48,709 --> 00:04:50,986
+like iron, cobalt, nickel and copper.
+
+100
+00:04:50,986 --> 00:04:54,124
+So from there, the pattern repeats after 18, not 8.
+
+101
+00:04:54,124 --> 00:04:57,324
+Newlands forced everything into eights, so it broke.
+
+102
+00:04:57,324 --> 00:04:59,970
+The modern table fixes this, as you'll see.
+
+103
+00:05:01,927 --> 00:05:04,418
+Then came Dmitri Mendeleev, in 1869.
+
+104
+00:05:04,418 --> 00:05:06,562
+63 elements were known by then.
+
+105
+00:05:06,562 --> 00:05:12,095
+He wrote each one on a card with its properties, and kept arranging them, like a
+
+106
+00:05:12,095 --> 00:05:13,271
+game of patience.
+
+107
+00:05:13,594 --> 00:05:17,999
+He arranged them by atomic mass, and also checked their chemical properties,
+
+108
+00:05:17,999 --> 00:05:21,070
+especially the formulas of their oxides and hydrides.
+
+109
+00:05:21,070 --> 00:05:24,084
+That means their compounds with oxygen and hydrogen.
+
+110
+00:05:24,927 --> 00:05:30,351
+His law says: properties of elements are a periodic function of their atomic masses.
+
+111
+00:05:30,351 --> 00:05:33,579
+Periodic means, repeating after regular intervals.
+
+112
+00:05:33,579 --> 00:05:36,097
+Learn this line exactly, word for word.
+
+113
+00:05:36,927 --> 00:05:38,418
+Now, his master stroke.
+
+114
+00:05:38,418 --> 00:05:41,983
+Where no known element fitted, he did not force one in.
+
+115
+00:05:41,983 --> 00:05:46,715
+He left an empty chair, and said: someone will come and sit here one day.
+
+116
+00:05:47,061 --> 00:05:52,192
+He even predicted their properties, and gave them names: eka-boron, eka-aluminium
+
+117
+00:05:52,192 --> 00:05:53,205
+and eka-silicon.
+
+118
+00:05:53,205 --> 00:05:54,915
+Eka means one, in Sanskrit.
+
+119
+00:05:56,194 --> 00:05:59,666
+<font color="#c084fc">How could he predict an element that nobody had ever seen?</font>
+
+120
+00:05:59,994 --> 00:06:02,149
+By looking at its neighbours!
+
+121
+00:06:02,149 --> 00:06:05,494
+In the table, properties change step by step.
+
+122
+00:06:05,494 --> 00:06:08,986
+Aluminium is above the gap, indium is below it.
+
+123
+00:06:08,986 --> 00:06:13,000
+So the missing element should be somewhere in between.
+
+124
+00:06:13,000 --> 00:06:15,378
+The average of 27 and 115 is 71.
+
+125
+00:06:15,378 --> 00:06:17,087
+The real gallium: 69.7.
+
+126
+00:06:17,087 --> 00:06:17,756
+So close!
+
+127
+00:06:17,756 --> 00:06:21,620
+That's Dobereiner's averaging idea, used like a pro.
+
+128
+00:06:22,994 --> 00:06:26,209
+Years later, gallium was discovered.
+
+129
+00:06:26,209 --> 00:06:30,049
+Compare his prediction with the real thing.
+
+130
+00:06:30,049 --> 00:06:32,370
+Atomic mass 68, real 69.7.
+
+131
+00:06:32,370 --> 00:06:34,424
+Density 5.9, real 5.94.
+
+132
+00:06:34,424 --> 00:06:37,192
+Oxide formula E2O3, real Ga2O3.
+
+133
+00:06:37,192 --> 00:06:38,353
+He nailed it!
+
+134
+00:06:38,353 --> 00:06:42,907
+Scandium and germanium matched his predictions too.
+
+135
+00:06:43,794 --> 00:06:46,750
+He also corrected some wrong atomic masses.
+
+136
+00:06:46,750 --> 00:06:49,638
+Beryllium was corrected from 14.09 to 9.4.
+
+137
+00:06:49,638 --> 00:06:55,344
+And when noble gases like helium, neon and argon were discovered later, they simply
+
+138
+00:06:55,344 --> 00:06:57,200
+joined as a new zero group.
+
+139
+00:06:57,200 --> 00:06:59,057
+Nothing in the table broke.
+
+140
+00:06:59,994 --> 00:07:01,854
+But his table had a few cracks.
+
+141
+00:07:01,854 --> 00:07:03,234
+Where does hydrogen go?
+
+142
+00:07:03,234 --> 00:07:07,733
+In some ways it behaves like the alkali metals, and in other ways, like the
+
+143
+00:07:07,733 --> 00:07:08,273
+halogens.
+
+144
+00:07:08,594 --> 00:07:11,579
+Isotopes, like chlorine 35 and chlorine 37.
+
+145
+00:07:11,579 --> 00:07:14,494
+Same element, but different atomic masses.
+
+146
+00:07:14,494 --> 00:07:17,964
+In a table based on mass, which seat do they take?
+
+147
+00:07:18,861 --> 00:07:23,415
+And cobalt, with atomic mass 58.9, was placed before nickel, 58.7.
+
+148
+00:07:23,415 --> 00:07:25,002
+Heavier before lighter.
+
+149
+00:07:25,002 --> 00:07:26,727
+That breaks his own rule!
+
+150
+00:07:26,727 --> 00:07:32,316
+Also, atomic masses don't increase in a regular way, so nobody could say how many
+
+151
+00:07:32,316 --> 00:07:35,215
+elements might exist between two elements.
+
+152
+00:07:36,061 --> 00:07:40,252
+<font color="#c084fc">If his rule was atomic mass, why did he put cobalt first?</font>
+
+153
+00:07:40,594 --> 00:07:43,324
+Because he trusted properties more than mass.
+
+154
+00:07:43,324 --> 00:07:48,055
+Cobalt behaves like rhodium and iridium, and nickel behaves like palladium and
+
+155
+00:07:48,055 --> 00:07:48,601
+platinum.
+
+156
+00:07:48,601 --> 00:07:50,845
+So he placed them by their behaviour.
+
+157
+00:07:50,845 --> 00:07:51,633
+He was right!
+
+158
+00:07:51,633 --> 00:07:53,392
+He just couldn't explain why.
+
+159
+00:07:53,392 --> 00:07:55,637
+That answer came later, from Moseley.
+
+160
+00:07:57,590 --> 00:08:03,573
+In 1913, a young English scientist, Henry Moseley, fixed all of this with one simple
+
+161
+00:08:03,573 --> 00:08:03,929
+idea.
+
+162
+00:08:04,657 --> 00:08:08,192
+Imagine your teacher arranging the class by weight.
+
+163
+00:08:08,192 --> 00:08:10,480
+Two students weigh 42 kilos each.
+
+164
+00:08:10,480 --> 00:08:11,589
+Who comes first?
+
+165
+00:08:11,589 --> 00:08:12,768
+Confusing, right?
+
+166
+00:08:13,057 --> 00:08:15,089
+Now arrange by roll number.
+
+167
+00:08:15,089 --> 00:08:15,917
+1, 2, 3, 4.
+
+168
+00:08:15,917 --> 00:08:18,176
+Always clear, never confusing.
+
+169
+00:08:18,176 --> 00:08:22,015
+For elements, the roll number is the atomic number.
+
+170
+00:08:22,857 --> 00:08:26,220
+Cobalt's roll number is 27, nickel's is 28.
+
+171
+00:08:26,220 --> 00:08:28,800
+So cobalt comes first, naturally.
+
+172
+00:08:28,800 --> 00:08:29,973
+No rule broken.
+
+173
+00:08:29,973 --> 00:08:30,990
+And isotopes?
+
+174
+00:08:30,990 --> 00:08:35,135
+Chlorine 35 and chlorine 37 both have roll number 17.
+
+175
+00:08:35,135 --> 00:08:37,325
+So they share the same seat.
+
+176
+00:08:37,325 --> 00:08:38,498
+Problem solved!
+
+177
+00:08:39,857 --> 00:08:42,944
+<font color="#c084fc">But why is atomic number better than mass?</font>
+
+178
+00:08:42,944 --> 00:08:45,297
+<font color="#c084fc">They both go up together anyway.</font>
+
+179
+00:08:45,590 --> 00:08:47,045
+Here's the deep reason.
+
+180
+00:08:47,045 --> 00:08:49,007
+Chemistry is done by electrons.
+
+181
+00:08:49,007 --> 00:08:53,815
+And the number of electrons equals the number of protons, the atomic number.
+
+182
+00:08:53,815 --> 00:08:55,270
+Neutrons only add mass.
+
+183
+00:08:55,270 --> 00:08:57,737
+They don't change the electrons at all.
+
+184
+00:08:57,737 --> 00:09:02,862
+So mass carries extra noise from neutrons, but atomic number tells exactly how an
+
+185
+00:09:02,862 --> 00:09:04,127
+element will behave.
+
+186
+00:09:05,524 --> 00:09:07,767
+So the law changed by just one word.
+
+187
+00:09:07,767 --> 00:09:12,191
+Properties of elements are a periodic function of their atomic numbers.
+
+188
+00:09:12,191 --> 00:09:13,374
+Mass became number.
+
+189
+00:09:13,374 --> 00:09:15,306
+That's the modern periodic law.
+
+190
+00:09:16,654 --> 00:09:21,943
+Now watch the modern periodic table build itself, using only our three basics.
+
+191
+00:09:21,943 --> 00:09:24,520
+Hydrogen has 1 electron, helium has 2.
+
+192
+00:09:24,520 --> 00:09:27,707
+Both use just one floor, so they make period 1.
+
+193
+00:09:28,054 --> 00:09:30,240
+Lithium to neon need two floors.
+
+194
+00:09:30,240 --> 00:09:31,334
+That's period 2.
+
+195
+00:09:31,334 --> 00:09:34,341
+Sodium to argon need three floors: period 3.
+
+196
+00:09:34,341 --> 00:09:37,894
+So the period number is simply the number of floors!
+
+197
+00:09:38,187 --> 00:09:40,116
+Now look down a column.
+
+198
+00:09:40,116 --> 00:09:41,207
+Lithium 2, 1.
+
+199
+00:09:41,207 --> 00:09:42,465
+Sodium 2, 8, 1.
+
+200
+00:09:42,465 --> 00:09:44,227
+Potassium 2, 8, 8, 1.
+
+201
+00:09:44,227 --> 00:09:46,912
+All have one top-floor electron.
+
+202
+00:09:46,912 --> 00:09:51,442
+Same valence electrons, same group, similar behaviour.
+
+203
+00:09:52,320 --> 00:09:52,882
+<font color="#c084fc">Wait!</font>
+
+204
+00:09:52,882 --> 00:09:55,577
+<font color="#c084fc">The M shell can hold 18.</font>
+
+205
+00:09:55,577 --> 00:10:00,854
+<font color="#c084fc">So why is potassium 2, 8, 8, 1 and not 2, 8, 9?</font>
+
+206
+00:10:01,187 --> 00:10:02,231
+Brilliant doubt!
+
+207
+00:10:02,231 --> 00:10:07,258
+There's one more rule: the outermost shell cannot hold more than 8 electrons.
+
+208
+00:10:07,258 --> 00:10:11,762
+So once the M shell has 8, the next electron moves up to the N shell.
+
+209
+00:10:11,762 --> 00:10:15,091
+That's why potassium starts a new period: period 4.
+
+210
+00:10:16,454 --> 00:10:19,008
+Quick trick, for chlorine, 2, 8, 7.
+
+211
+00:10:19,008 --> 00:10:20,906
+Three floors, so period 3.
+
+212
+00:10:20,906 --> 00:10:24,482
+Seven valence electrons, plus 10, gives group 17.
+
+213
+00:10:24,482 --> 00:10:30,102
+For groups 1 and 2, the group number is just the number of valence electrons.
+
+214
+00:10:30,920 --> 00:10:33,661
+<font color="#c084fc">Helium has 2 valence electrons.</font>
+
+215
+00:10:33,661 --> 00:10:36,755
+<font color="#c084fc">Why is it in group 18, not group 2?</font>
+
+216
+00:10:37,054 --> 00:10:40,235
+Because helium's only shell, K, can hold just 2.
+
+217
+00:10:40,235 --> 00:10:41,627
+So it's already full.
+
+218
+00:10:41,627 --> 00:10:46,266
+All group 18 elements have a full outer shell, and none of them react.
+
+219
+00:10:46,266 --> 00:10:50,243
+Helium behaves exactly like them, so it belongs in group 18.
+
+220
+00:10:50,243 --> 00:10:52,496
+Groups are really about behaviour.
+
+221
+00:10:53,187 --> 00:10:54,018
+And hydrogen?
+
+222
+00:10:54,018 --> 00:10:57,407
+It has 1 valence electron, so it's placed in group 1.
+
+223
+00:10:57,407 --> 00:10:59,836
+But it's a non-metal gas, not a metal.
+
+224
+00:10:59,836 --> 00:11:03,353
+That's why hydrogen's position is still a special case.
+
+225
+00:11:05,254 --> 00:11:09,886
+Keep going, and you get the full table: 7 periods, and 18 groups.
+
+226
+00:11:10,187 --> 00:11:11,415
+It has four blocks.
+
+227
+00:11:11,415 --> 00:11:13,419
+Groups 1 and 2 are the s-block.
+
+228
+00:11:13,419 --> 00:11:15,488
+Groups 13 to 18 are the p-block.
+
+229
+00:11:15,488 --> 00:11:20,271
+And groups 3 to 12 in the middle are the d-block, the transition elements.
+
+230
+00:11:21,120 --> 00:11:24,627
+<font color="#c084fc">Why does the table suddenly get wider from period 4?</font>
+
+231
+00:11:24,920 --> 00:11:29,863
+From period 4, ten extra elements, the d-block, fit in between group 2 and group 13.
+
+232
+00:11:29,863 --> 00:11:32,628
+That's the same reason Newlands' octaves broke!
+
+233
+00:11:32,628 --> 00:11:37,217
+These elements put their new electrons into an inner shell, not the outer one.
+
+234
+00:11:37,217 --> 00:11:42,159
+So their outer shells look alike, and that's why transition metals are so similar to
+
+235
+00:11:42,159 --> 00:11:42,807
+each other.
+
+236
+00:11:44,187 --> 00:11:48,736
+The f-block, the lanthanides and actinides, is pulled out and kept at the bottom,
+
+237
+00:11:48,736 --> 00:11:51,095
+just so the table doesn't become too wide.
+
+238
+00:11:51,387 --> 00:11:56,411
+And this zig-zag line separates metals on the left from non-metals on the right.
+
+239
+00:11:56,411 --> 00:11:58,923
+The metalloids sit right along the line.
+
+240
+00:11:58,923 --> 00:11:59,425
+And see?
+
+241
+00:11:59,425 --> 00:12:00,995
+Most elements are metals.
+
+242
+00:12:01,320 --> 00:12:08,089
+And the number of elements in each period: 2, 8, 8, 18, 18, 32, 32.
+
+243
+00:12:09,451 --> 00:12:10,439
+Now the trends.
+
+244
+00:12:10,439 --> 00:12:15,640
+Many students try to memorise lots of arrows, and then forget them in the exam.
+
+245
+00:12:15,640 --> 00:12:16,035
+Don't.
+
+246
+00:12:16,035 --> 00:12:17,747
+You only need two reasons.
+
+247
+00:12:18,584 --> 00:12:19,410
+Reason one.
+
+248
+00:12:19,410 --> 00:12:25,187
+Across a period, the floors stay the same, but the nucleus gets more and more
+
+249
+00:12:25,187 --> 00:12:25,787
+protons.
+
+250
+00:12:25,787 --> 00:12:30,889
+So it pulls harder, the electrons come closer, and the atom shrinks.
+
+251
+00:12:30,889 --> 00:12:32,839
+Lithium is 152 picometres.
+
+252
+00:12:32,839 --> 00:12:34,190
+Oxygen is only 66.
+
+253
+00:12:35,051 --> 00:12:37,025
+<font color="#c084fc">More protons AND more electrons...</font>
+
+254
+00:12:37,025 --> 00:12:38,766
+<font color="#c084fc">shouldn't the atom get BIGGER?</font>
+
+255
+00:12:39,051 --> 00:12:40,630
+It feels like it, right?
+
+256
+00:12:40,630 --> 00:12:43,458
+But the new electrons go to the same floor.
+
+257
+00:12:43,458 --> 00:12:44,905
+No new floor is added.
+
+258
+00:12:44,905 --> 00:12:50,299
+Meanwhile, the nucleus gets stronger with every proton, and pulls that whole floor
+
+259
+00:12:50,299 --> 00:12:50,760
+inward.
+
+260
+00:12:50,760 --> 00:12:53,391
+Same floor, stronger pull: smaller atom.
+
+261
+00:12:55,318 --> 00:12:56,219
+Reason two.
+
+262
+00:12:56,219 --> 00:13:01,958
+Down a group, a new floor is added each time, so the atom gets bigger.
+
+263
+00:13:01,958 --> 00:13:06,057
+Lithium 152, sodium 186, potassium 231 picometres.
+
+264
+00:13:06,057 --> 00:13:10,729
+And one picometre is ten to the power minus twelve metre.
+
+265
+00:13:10,729 --> 00:13:11,631
+Super tiny!
+
+266
+00:13:12,451 --> 00:13:15,221
+<font color="#c084fc">But protons increase down a group too!</font>
+
+267
+00:13:15,221 --> 00:13:17,554
+<font color="#c084fc">So why does the atom grow there?</font>
+
+268
+00:13:17,851 --> 00:13:19,502
+Because the new floor wins.
+
+269
+00:13:19,502 --> 00:13:21,764
+Each new floor sits much farther out.
+
+270
+00:13:21,764 --> 00:13:26,777
+And the inner floors of electrons stand in between, blocking part of the nucleus's
+
+271
+00:13:26,777 --> 00:13:29,528
+pull, like a crowd between you and the stage.
+
+272
+00:13:29,528 --> 00:13:33,868
+So the outer electron feels only a weak pull, and the atom gets bigger.
+
+273
+00:13:35,784 --> 00:13:37,359
+Now, metallic character.
+
+274
+00:13:37,359 --> 00:13:41,099
+It simply means: how easily an atom gives away electrons.
+
+275
+00:13:41,099 --> 00:13:45,757
+Across a period, the nucleus holds tighter, so giving away gets harder.
+
+276
+00:13:45,757 --> 00:13:47,659
+Metallic character decreases.
+
+277
+00:13:47,659 --> 00:13:53,170
+Sodium and magnesium are metals, silicon is a metalloid, and phosphorus, sulphur and
+
+278
+00:13:53,170 --> 00:13:54,745
+chlorine are non-metals.
+
+279
+00:13:55,051 --> 00:14:00,156
+Down a group, the top floor electrons are far from the nucleus, and loosely held.
+
+280
+00:14:00,156 --> 00:14:01,291
+Easy to give away.
+
+281
+00:14:01,291 --> 00:14:03,308
+So metallic character increases.
+
+282
+00:14:03,308 --> 00:14:06,459
+That's why potassium is more reactive than sodium.
+
+283
+00:14:06,784 --> 00:14:09,587
+Non-metallic character is the exact opposite.
+
+284
+00:14:09,587 --> 00:14:13,137
+It increases across a period, and decreases down a group.
+
+285
+00:14:13,137 --> 00:14:17,060
+Among the halogens, fluorine is the strongest electron grabber.
+
+286
+00:14:17,918 --> 00:14:20,634
+<font color="#c084fc">Why is fluorine the best electron grabber?</font>
+
+287
+00:14:20,984 --> 00:14:23,858
+Because fluorine is the smallest in its group.
+
+288
+00:14:23,858 --> 00:14:29,105
+Its outer floor is very close to the nucleus, so an incoming electron feels a strong
+
+289
+00:14:29,105 --> 00:14:29,418
+pull.
+
+290
+00:14:29,418 --> 00:14:30,917
+Small atom, strong grip.
+
+291
+00:14:30,917 --> 00:14:33,228
+Iodine is big, so its grip is weaker.
+
+292
+00:14:35,184 --> 00:14:38,783
+Valency comes from the valence electrons.
+
+293
+00:14:38,783 --> 00:14:43,083
+Across period 3: 1, 2, 3, 4, then 3, 2, 1, and 0.
+
+294
+00:14:43,083 --> 00:14:45,453
+Up to four, then back down.
+
+295
+00:14:45,453 --> 00:14:48,612
+And down a group, it stays the same.
+
+296
+00:14:49,451 --> 00:14:52,388
+<font color="#c084fc">Why does valency go back DOWN after 4?</font>
+
+297
+00:14:52,718 --> 00:14:54,405
+Remember the easy way?
+
+298
+00:14:54,405 --> 00:14:57,090
+Phosphorus has 5 valence electrons.
+
+299
+00:14:57,090 --> 00:15:00,005
+Losing 5 is hard, gaining 3 is easier.
+
+300
+00:15:00,005 --> 00:15:01,539
+So its valency is 3.
+
+301
+00:15:01,539 --> 00:15:04,147
+Sulphur needs 2, chlorine needs 1.
+
+302
+00:15:04,147 --> 00:15:06,831
+And argon is already full, so zero.
+
+303
+00:15:08,784 --> 00:15:10,912
+Here is every trend on one screen.
+
+304
+00:15:10,912 --> 00:15:15,855
+And every single arrow comes from those two reasons: more protons across, a new
+
+305
+00:15:15,855 --> 00:15:16,543
+floor down.
+
+306
+00:15:16,543 --> 00:15:18,921
+Pause the video and take a screenshot.
+
+307
+00:15:22,310 --> 00:15:23,057
+Quick test!
+
+308
+00:15:23,057 --> 00:15:24,144
+Three questions.
+
+309
+00:15:24,144 --> 00:15:26,861
+Try to answer before the timer runs out.
+
+310
+00:15:27,176 --> 00:15:28,853
+An element is 2, 8, 2.
+
+311
+00:15:28,853 --> 00:15:31,064
+Which period and which group?
+
+312
+00:15:31,064 --> 00:15:32,436
+And is it a metal?
+
+313
+00:15:38,510 --> 00:15:40,529
+Three floors, so period 3.
+
+314
+00:15:40,529 --> 00:15:43,171
+Two valence electrons, so group 2.
+
+315
+00:15:43,171 --> 00:15:45,035
+It's magnesium, a metal.
+
+316
+00:15:46,710 --> 00:15:48,972
+Who left empty spaces in his table?
+
+317
+00:15:48,972 --> 00:15:51,557
+And what was eka-aluminium later called?
+
+318
+00:15:57,576 --> 00:15:58,280
+Mendeleev.
+
+319
+00:15:58,280 --> 00:16:00,322
+And eka-aluminium is gallium.
+
+320
+00:16:01,976 --> 00:16:04,966
+Which atom is bigger, sodium or potassium?
+
+321
+00:16:04,966 --> 00:16:05,535
+And why?
+
+322
+00:16:11,576 --> 00:16:12,191
+Potassium.
+
+323
+00:16:12,191 --> 00:16:14,833
+Going down the group, a new floor is added.
+
+324
+00:16:17,110 --> 00:16:18,379
+So, was it hard?
+
+325
+00:16:18,379 --> 00:16:19,410
+Three basics.
+
+326
+00:16:19,410 --> 00:16:20,203
+One story.
+
+327
+00:16:20,203 --> 00:16:21,155
+Two reasons.
+
+328
+00:16:21,155 --> 00:16:23,218
+That is the whole chapter.
+
+329
+00:16:23,510 --> 00:16:24,272
+Myth busted!
+
+330
+00:16:24,272 --> 00:16:28,023
+Now send this video to the friend who said science is hard.
+
+331
+00:16:28,023 --> 00:16:29,803
+All the best for your exams!

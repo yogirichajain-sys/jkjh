@@ -42,10 +42,11 @@ class S01Hook(Lesson):
             self.play(pt.animate.set_opacity(0.3), FadeIn(secret, shift=UP * 0.5), run_time=1)
         self.clear_all()
 
-        a = Atom("Na", [2, 8, 1], r0=0.4, step=0.4).scale(0.9).to_edge(LEFT, buff=1.2)
+        a = Atom("Na", [2, 8, 1], r0=0.4, step=0.4).scale(0.8).to_edge(LEFT, buff=0.8)
         title = VGroup(T("SSC Class 10 · Science Part 1 · Chapter 2", 32, MUTED),
                        B("Periodic Classification", 70), B("of Elements", 70, GOLD)
-                       ).arrange(DOWN, aligned_edge=LEFT, buff=0.25).next_to(a, RIGHT, buff=0.9)
+                       ).arrange(DOWN, aligned_edge=LEFT, buff=0.25)
+        fit(title, 8.6).next_to(a, RIGHT, buff=0.7)
         with self.say("Chapter 2. Periodic Classification of Elements. Let's go!"):
             spin(a, 0.8)
             self.play(FadeIn(a, scale=0.5), LaggedStart(*[FadeIn(t, shift=RIGHT * 0.4) for t in title],
@@ -102,7 +103,7 @@ class S02Basics(Lesson):
         self.keep(h)
 
         # --- shells as floors
-        atom = Atom("Na", [2, 8, 1], r0=0.45, step=0.55).move_to(LEFT * 3.2 + DOWN * 0.45)
+        atom = Atom("Na", [2, 8, 1], r0=0.42, step=0.5).move_to(LEFT * 3.4 + UP * 0.05)
         caps = VGroup(*[VGroup(B(n, 40, c), T(f"max {m}", 36)).arrange(RIGHT, buff=0.4)
                         for n, m, c in [("K", 2, ELECTRON), ("L", 8, ELECTRON), ("M", 18, ELECTRON),
                                         ("N", 32, ELECTRON)]]).arrange(DOWN, aligned_edge=LEFT, buff=0.3)
@@ -139,7 +140,8 @@ class S02Basics(Lesson):
         ring = Circle(radius=0.22, color=GOLD, stroke_width=5).move_to(val)
         vtext = VGroup(B("Valence electron", 44, GOLD), T("= electrons on the TOP floor", 36),
                        T("They decide how the element behaves", 36, MUTED)
-                       ).arrange(DOWN, aligned_edge=LEFT, buff=0.25).move_to(RIGHT * 3.6 + UP * 0.6)
+                       ).arrange(DOWN, aligned_edge=LEFT, buff=0.25)
+        fit(vtext, 6.4).move_to(RIGHT * 3.4 + UP * 0.6)
         arr = Arrow(vtext.get_left() + LEFT * 0.2, ring.get_right(), color=GOLD, buff=0.1, stroke_width=6)
         with self.say("That top floor electron is called the valence electron. It is the one at the window, "
                       "the one that meets other atoms. And it decides how the element behaves."):
@@ -149,19 +151,19 @@ class S02Basics(Lesson):
 
         # --- give / grab / full
         self.play(atom.animate.scale(0.62).move_to(LEFT * 4.6 + DOWN * 0.1), run_time=0.8)
-        na_lab = VGroup(B("Na  2, 8, 1", 34), B("Gives 1 away → METAL", 30, S_COL)).arrange(DOWN, buff=0.15)
+        na_lab = VGroup(B("Na  2, 8, 1", 34), B("gives 1 away", 28, S_COL), B("METAL", 30, S_COL)).arrange(DOWN, buff=0.1)
         na_lab.next_to(atom, DOWN, buff=0.3)
         with self.say("Sodium has just one, and it would happily give it away. Elements that give away electrons are metals."):
             self.play(FadeIn(na_lab[0]), run_time=0.5)
             e = atom.shells[2][0]
             self.play(e.animate.move_to(LEFT * 6.8 + UP * 3.2).set_opacity(0), run_time=1.2)
             plus = B("+", 40, GOLD).next_to(atom.nucleus, UR, buff=0.05)
-            self.play(FadeIn(plus, scale=2), FadeIn(na_lab[1], shift=UP * 0.2), run_time=0.7)
+            self.play(FadeIn(plus, scale=2), FadeIn(na_lab[1:], shift=UP * 0.2), run_time=0.7)
 
         cl = Atom("Cl", [2, 8, 8], r0=0.45, step=0.55).scale(0.62).move_to(DOWN * 0.1)
         new_e = cl.shells[2][7]
         cl.shells[2].remove(new_e)
-        cl_lab = VGroup(B("Cl  2, 8, 7", 34), B("Grabs 1 → NON-METAL", 30, P_COL)).arrange(DOWN, buff=0.15)
+        cl_lab = VGroup(B("Cl  2, 8, 7", 34), B("grabs 1", 28, P_COL), B("NON-METAL", 30, P_COL)).arrange(DOWN, buff=0.1)
         cl_lab.next_to(cl, DOWN, buff=0.3)
         with self.say("Chlorine is 2, 8, 7. It needs just one more to fill its top floor, so it grabs one. "
                       "Elements that grab electrons are non-metals."):
@@ -172,10 +174,10 @@ class S02Basics(Lesson):
             self.wait(0.8)
             self.play(new_e.animate.move_to(target), run_time=1.1)
             minus = B("−", 40, GOLD).next_to(cl.nucleus, UR, buff=0.05)
-            self.play(Flash(new_e, color=GOLD), FadeIn(minus, scale=2), FadeIn(cl_lab[1], shift=UP * 0.2), run_time=0.7)
+            self.play(Flash(new_e, color=GOLD), FadeIn(minus, scale=2), FadeIn(cl_lab[1:], shift=UP * 0.2), run_time=0.7)
 
         ar = Atom("Ar", [2, 8, 8], r0=0.45, step=0.55).scale(0.62).move_to(RIGHT * 4.6 + DOWN * 0.1)
-        ar_lab = VGroup(B("Ar  2, 8, 8", 34), B("Full → doesn't react", 30, GOOD)).arrange(DOWN, buff=0.15)
+        ar_lab = VGroup(B("Ar  2, 8, 8", 34), B("full shell", 28, GOOD), B("NO REACTION", 30, GOOD)).arrange(DOWN, buff=0.1)
         ar_lab.next_to(ar, DOWN, buff=0.3)
         with self.say("And argon, 2, 8, 8, has a full top floor. Totally happy. It does not react at all."):
             self.play(FadeIn(ar, scale=0.6), FadeIn(ar_lab), run_time=1)
@@ -192,7 +194,7 @@ class S02Basics(Lesson):
                            ).arrange(DOWN, aligned_edge=LEFT, buff=0.25)
                 rows.add(r)
             rows.arrange(RIGHT, buff=1.4, aligned_edge=UP).move_to(DOWN * 0.45)
-            moral = B("Atoms take the EASY way to a full outer shell", 38, GOLD).move_to(DOWN * 2.45)
+            moral = B("Atoms take the EASY way to a full outer shell", 36, GOLD).move_to(DOWN * 2.25)
             with self.say("Think about it. Getting rid of 1 electron is much easier than collecting 7 more. "
                           "Chlorine is the opposite: grabbing 1 is easier than throwing away 7. "
                           "Atoms always take the easy way to a full outer shell. "
@@ -212,10 +214,10 @@ class S02Basics(Lesson):
         cs = VGroup()
         for i, (a, b) in enumerate(names):
             c = card(4.0, 2.4, stroke=GOLD, sw=4)
-            txt = VGroup(B(str(i + 1), 56, GOLD), B(a, 36), T(b, 28, MUTED)).arrange(DOWN, buff=0.18).move_to(c)
+            txt = fit(VGroup(B(str(i + 1), 56, GOLD), B(a, 34), T(b, 26, MUTED)).arrange(DOWN, buff=0.18), 3.6).move_to(c)
             cs.add(VGroup(c, txt))
         cs.arrange(RIGHT, buff=0.4).shift(DOWN * 0.1)
-        cost = T("Everything else in this chapter = these 3 in different costumes", 34, GOLD).next_to(cs, DOWN, buff=0.5)
+        cost = fit(T("Everything else in this chapter = these 3 in different costumes", 34, GOLD), 12.5).next_to(cs, DOWN, buff=0.5)
         with self.say("So remember three things: roll number, floors, and top floor electrons. "
                       "Honestly, the rest of this chapter is just these three, wearing different costumes."):
             self.play(LaggedStart(*[FadeIn(c, shift=UP * 0.4) for c in cs], lag_ratio=0.5), run_time=2.5)
@@ -287,7 +289,7 @@ class S03Triads(Lesson):
             post = Polygon(UP * 0.2, DOWN * 1.6 + LEFT * 0.6, DOWN * 1.6 + RIGHT * 0.6, fill_color=LINE, fill_opacity=1, stroke_width=0)
             pans = VGroup(*[Arc(radius=0.7, start_angle=PI, angle=PI, color=INK, stroke_width=6).move_to(beam.get_end() * k + DOWN * 0.55) for k in (-1, 1)])
             na = ebox("Na", size=0.8).next_to(pans[0], UP, buff=-0.25)
-            wt = B("23", 34, GOLD).next_to(pans[1], UP, buff=-0.15)
+            wt = B("23", 34, GOLD).next_to(pans[1], UP, buff=0.05)
             scale = VGroup(beam, post, pans, na, wt).scale(0.9).move_to(LEFT * 3.4 + DOWN * 0.6)
             facts = VGroup(VGroup(cross(size=0.45), T("Protons, electrons: not discovered yet", 32)).arrange(RIGHT, buff=0.25),
                            VGroup(check(size=0.45), T("Mass: could be measured by weighing", 32)).arrange(RIGHT, buff=0.25),
@@ -345,14 +347,15 @@ class S03Triads(Lesson):
             b.move_to([x0 + i * cw, y0 - 4.0, 0])
         probs = VGroup(*[VGroup(cross(size=0.45), T(s, 28)).arrange(RIGHT, buff=0.2) for s in
                          ["Worked only up to calcium", "2 elements in 1 box", "Unlike elements together",
-                          "No room for new elements"]]).arrange(DOWN, aligned_edge=LEFT, buff=0.3).to_edge(RIGHT, buff=0.3)
+                          "No room for new elements"]]).arrange(DOWN, aligned_edge=LEFT, buff=0.3)
+        fit(probs, 4.1).to_edge(RIGHT, buff=0.25)
         probs.shift(DOWN * 0.3)
         with self.say("But after calcium, the music went off-key. He squeezed cobalt and nickel into one box, "
                       "and put them in the same column as fluorine and chlorine. That's like putting a cat in a team of fish! "
                       "And he assumed no new elements would ever be found.") as d:
             grid = VGroup(header, note, boxes)
-            self.play(VGroup(grid).animate.shift(LEFT * 1.8), run_time=0.6)
-            row4.shift(LEFT * 1.8)
+            self.play(VGroup(grid).animate.shift(LEFT * 2.5), run_time=0.6)
+            row4.shift(LEFT * 2.5)
             self.play(LaggedStart(*[FadeIn(b, shift=UP * 0.3) for b in row4], lag_ratio=0.1), run_time=1)
             self.play(row4[0].sq.animate.set_fill(dim(BAD, 0.3)), Wiggle(row4[0]), run_time=1)
             self.play(Circumscribe(VGroup(boxes[7], boxes[14], row4[0]), color=BAD), run_time=1.2)
@@ -418,7 +421,7 @@ class S04Mendeleev(Lesson):
         self.play(FadeOut(VGroup(law, box, per)), run_time=0.5)
 
         # --- empty chairs
-        heads = VGroup(B("Group III", 34, MUTED), B("Group IV", 34, MUTED)).arrange(RIGHT, buff=0.9)
+        heads = VGroup(B("Group III", 24, MUTED), B("Group IV", 24, MUTED)).arrange(RIGHT, buff=0.9)
         col3 = VGroup(ebox("B", bottom=11, size=1.2), ebox("Al", bottom=27, size=1.2))
         col4 = VGroup(ebox("C", bottom=12, size=1.2), ebox("Si", bottom=28, size=1.2))
         col3.arrange(DOWN, buff=0.15)
@@ -429,7 +432,7 @@ class S04Mendeleev(Lesson):
         cols = VGroup(VGroup(col3, g1), VGroup(col4, g2))
         for c, g in ((col3, g1), (col4, g2)):
             g.next_to(c, DOWN, buff=0.15)
-        cols.arrange(RIGHT, buff=0.5).move_to(LEFT * 3.6 + DOWN * 0.3)
+        cols.arrange(RIGHT, buff=0.7).move_to(LEFT * 4.0 + DOWN * 0.3)
         heads[0].next_to(cols[0], UP, buff=0.3)
         heads[1].next_to(cols[1], UP, buff=0.3)
         q1.move_to(g1)
@@ -470,16 +473,16 @@ class S04Mendeleev(Lesson):
                 self.wait(1)
                 self.play(FadeIn(calc[2], shift=UP * 0.2), Flash(gp, color=GOOD, flash_radius=0.9), run_time=0.8)
 
-        rows = [("", "Predicted", "Gallium"), ("Atomic mass", "68", "69.7"), ("Density", "5.9", "5.94"),
+        rows = [("", "Predicted", "Real Ga"), ("Atomic mass", "68", "69.7"), ("Density", "5.9", "5.94"),
                 ("Oxide", "E₂O₃", "Ga₂O₃"), ("Chloride", "ECl₃", "GaCl₃")]
         tab = VGroup()
         for r, (a, b, c) in enumerate(rows):
             wt = BOLD if r == 0 else NORMAL
             row = VGroup(T(a, 32, MUTED, weight=wt), T(b, 34, GOLD, weight=wt), T(c, 34, GOOD, weight=wt))
             for i, m in enumerate(row):
-                m.move_to([[-2.2, 0.4, 2.4][i], -r * 0.75, 0])
+                m.move_to([[-2.3, 0.2, 2.2][i], -r * 0.75, 0])
             tab.add(row)
-        tab.move_to(RIGHT * 3.0 + DOWN * 0.2)
+        fit(tab, 6.2).move_to(RIGHT * 2.9 + DOWN * 0.2)
         ticks = VGroup(*[check(size=0.4).next_to(tab[r][2], RIGHT, buff=0.3) for r in range(1, 5)])
         with self.say("Years later, gallium was discovered. Compare his prediction with the real thing. "
                       "Atomic mass 68, real 69.7. Density 5.9, real 5.94. Oxide formula E2O3, real Ga2O3. "
@@ -566,7 +569,7 @@ class S04Mendeleev(Lesson):
             lk2 = VGroup(T("behaves like", 30, MUTED), B("Pd, Pt", 40, GOOD)).arrange(RIGHT, buff=0.3).next_to(ni2, RIGHT, buff=1.2)
             ar1 = Arrow(co2.get_right(), lk1.get_left(), color=GOOD, buff=0.15)
             ar2 = Arrow(ni2.get_right(), lk2.get_left(), color=GOOD, buff=0.15)
-            moral = B("He trusted PROPERTIES more than mass", 36, GOLD).move_to(DOWN * 2.75)
+            moral = B("He trusted PROPERTIES more than mass", 36, GOLD).move_to(DOWN * 2.3)
             with self.say("Because he trusted properties more than mass. Cobalt behaves like rhodium and iridium, "
                           "and nickel behaves like palladium and platinum. So he placed them by their behaviour. "
                           "He was right! He just couldn't explain why. That answer came later, from Moseley."):
@@ -604,14 +607,14 @@ class S05Moseley(Lesson):
             self.play(FadeIn(by_w), run_time=0.5)
             order = sorted(range(4), key=lambda i: kids[i][1])
             xs = sorted([g.get_x() for g in groups])
-            self.play(*[groups[i].animate.set_x(xs[k]) for k, i in enumerate(order)], run_time=1.2)
+            self.play(*[groups[i].animate(path_arc=PI / 2).set_x(xs[k]) for k, i in enumerate(order)], run_time=1.4)
             self.play(Wiggle(VGroup(groups[0], groups[3])), run_time=1)
         by_r = T("Sort by ROLL NUMBER: always clear!", 38, GOOD).move_to(by_w)
         with self.say("Now arrange by roll number. 1, 2, 3, 4. Always clear, never confusing. "
                       "For elements, the roll number is the atomic number."):
             order = sorted(range(4), key=lambda i: kids[i][2])
             xs = sorted([g.get_x() for g in groups])
-            self.play(ReplacementTransform(by_w, by_r), *[groups[i].animate.set_x(xs[k]) for k, i in enumerate(order)], run_time=1.5)
+            self.play(ReplacementTransform(by_w, by_r), *[groups[i].animate(path_arc=PI / 2).set_x(xs[k]) for k, i in enumerate(order)], run_time=1.5)
             self.play(*[Indicate(g[1][2], color=GOLD) for g in groups], run_time=1)
         self.play(FadeOut(VGroup(groups, by_r)), run_time=0.5)
 
@@ -638,9 +641,9 @@ class S05Moseley(Lesson):
                 nuc = VGroup(Circle(radius=0.75, fill_color=NUCLEUS, fill_opacity=1, stroke_width=0),
                              B(f"17 p\n{n} n", 30, BG))
                 cols.add(VGroup(B(name, 38), nuc, T("electrons: 2, 8, 7", 30, GOLD)).arrange(DOWN, buff=0.3))
-            cols.arrange(RIGHT, buff=2.2).move_to(LEFT * 1.6 + DOWN * 0.6)
+            cols.arrange(RIGHT, buff=2.2).move_to(LEFT * 1.6 + DOWN * 0.35)
             same = VGroup(B("same electrons", 36, GOOD), B("= same chemistry", 36, GOOD)).arrange(DOWN, buff=0.15).move_to(RIGHT * 4.3 + DOWN * 0.6)
-            notes = T("Neutrons add mass but do nothing in chemistry", 32, MUTED).move_to(DOWN * 2.6)
+            notes = T("Neutrons add mass but do nothing in chemistry", 32, MUTED).move_to(DOWN * 2.3)
             with self.say("Here's the deep reason. Chemistry is done by electrons. "
                           "And the number of electrons equals the number of protons, the atomic number. "
                           "Neutrons only add mass. They don't change the electrons at all. "
@@ -654,9 +657,9 @@ class S05Moseley(Lesson):
                 self.play(FadeIn(notes), run_time=0.7)
 
         old = Text("Properties of elements are a periodic function of their atomic masses.", font=FONT,
-                   font_size=38, weight=BOLD, color=INK, t2c={"masses": BAD})
+                   font_size=38, weight=BOLD, color=INK, t2c={"masses": BAD}).scale_to_fit_width(12.6)
         new = Text("Properties of elements are a periodic function of their atomic numbers.", font=FONT,
-                   font_size=38, weight=BOLD, color=INK, t2c={"numbers": GOOD})
+                   font_size=38, weight=BOLD, color=INK, t2c={"numbers": GOOD}).scale_to_fit_width(12.6)
         lab_old = T("Mendeleev's law", 32, MUTED).next_to(old, UP, buff=0.4)
         lab_new = B("Modern periodic law", 36, GOOD).move_to(lab_old)
         with self.say("So the law changed by just one word. Properties of elements are a periodic function of their atomic numbers. "
@@ -731,8 +734,9 @@ class S06Modern(Lesson):
             wrong = VGroup(B("2, 8, 9", 60, MUTED), cross(size=0.8)).arrange(RIGHT, buff=0.4)
             right = VGroup(B("2, 8, 8, 1", 60, GOOD), check(size=0.8)).arrange(RIGHT, buff=0.4)
             VGroup(wrong, right).arrange(RIGHT, buff=1.6).move_to(DOWN * 0.3)
-            rule = VGroup(card(10.5, 1.1, stroke=GOLD, sw=4), B("The OUTERMOST shell can't hold more than 8 electrons", 34, GOLD))
-            rule[1].move_to(rule[0])
+            rt = B("The OUTERMOST shell can't hold more than 8 electrons", 34, GOLD)
+            rule = VGroup(card(rt.width + 0.8, 1.1, stroke=GOLD, sw=4), rt)
+            rt.move_to(rule[0])
             rule.move_to(DOWN * 2.0)
             with self.say("Brilliant doubt! There's one more rule: the outermost shell cannot hold more than 8 electrons. "
                           "So once the M shell has 8, the next electron moves up to the N shell. "
@@ -805,7 +809,7 @@ class S06Modern(Lesson):
                 item = VGroup(Square(0.3, fill_color=BLOCK_COL[blk], fill_opacity=1, stroke_width=0), T(name, 26))
                 item.arrange(RIGHT, buff=0.15)
                 legend.add(item)
-                legend.arrange(RIGHT, buff=0.5).move_to(DOWN * 2.65)
+                legend.arrange(RIGHT, buff=0.5).move_to(UP * 3.6)
                 self.add(item)
                 self.wait(d * 0.15)
         with self.doubt("Why does the table suddenly get\nwider from period 4?"):
@@ -835,13 +839,17 @@ class S06Modern(Lesson):
             self.play(LaggedStart(*[pt.boxes[z].animate.scale(5).move_to(t) for z, t in zip(fz, targets)],
                                   lag_ratio=0.04), run_time=2.5)
             item = VGroup(Square(0.3, fill_color=F_COL, fill_opacity=1, stroke_width=0), T("f-block", 26)).arrange(RIGHT, buff=0.15)
+            old = legend.copy()
             legend.add(item)
-            self.play(legend.animate.arrange(RIGHT, buff=0.5).move_to(DOWN * 2.65), FadeIn(item), run_time=0.6)
+            legend.arrange(RIGHT, buff=0.5).move_to(UP * 3.6)
+            self.play(*[Transform(o, n) for o, n in zip(old, legend[:-1])], FadeIn(item), run_time=0.6)
+            self.remove(*old)
+            self.add(legend)
 
         stair = pt.staircase(GOLD, 8)
         met = VGroup(*[pt.boxes[z] for z in pt.boxes if SYMBOLS[z - 1] in METALLOIDS])
         ml = B("Metals", 34, S_COL).move_to(pt.point(2, 6) + DOWN * 0.1)
-        nl = B("Non-metals", 30, P_COL).move_to(pt.point(1, 14) + DOWN * 0.15)
+        nl = B("Non-metals", 28, P_COL).move_to(pt.point(1, 15) + UP * 0.05)
         with self.say("And this zig-zag line separates metals on the left from non-metals on the right. "
                       "The metalloids sit right along the line. And see? Most elements are metals."):
             self.play(Create(stair), run_time=1.5)
@@ -930,11 +938,11 @@ class S07Trends(Lesson):
         # --- down: grow
         gdata = [("Li", [2, 1], 152), ("Na", [2, 8, 1], 186), ("K", [2, 8, 8, 1], 231)]
         atoms = VGroup(*[Atom(s, sh, r0=0.3, step=0.3, e_radius=0.06) for s, sh, _ in gdata]).arrange(RIGHT, buff=0.8)
-        atoms.move_to(LEFT * 1.3 + UP * 0.25)
+        atoms.move_to(LEFT * 2.0 + UP * 0.25)
         pms = VGroup(*[B(f"{pm} pm", 34, GOLD).next_to(a, DOWN, buff=0.25) for a, (_, _, pm) in zip(atoms, gdata)])
         for p in pms:
             p.set_y(atoms.get_bottom()[1] - 0.4)
-        extra = VGroup(*[VGroup(Circle(radius=pm / 262 * 1.2, fill_color=S_COL, fill_opacity=0.35, stroke_color=S_COL),
+        extra = VGroup(*[VGroup(Circle(radius=pm / 262 * 0.95, fill_color=S_COL, fill_opacity=0.35, stroke_color=S_COL),
                                 B(s, 30)) for s, pm in [("Rb", 244), ("Cs", 262)]])
         for e in extra:
             e[1].move_to(e[0])
@@ -950,13 +958,14 @@ class S07Trends(Lesson):
             self.play(FadeIn(extra, shift=LEFT * 0.3), FadeIn(epm), run_time=0.8)
             self.play(FadeIn(unit), run_time=0.6)
         with self.doubt("But protons increase down a group too!\nSo why does the atom grow there?"):
-            k_ = Atom("K", [2, 8, 8, 1], r0=0.35, step=0.42, e_radius=0.06).move_to(LEFT * 3.2 + DOWN * 0.75)
-            crowd = Annulus(inner_radius=0.36, outer_radius=0.35 + 0.42 * 3 + 0.12, fill_color=ELECTRON, fill_opacity=0.25, stroke_width=0).move_to(k_.nucleus)
+            k_ = Atom("K", [2, 8, 8, 1], r0=0.33, step=0.38, e_radius=0.06).move_to(LEFT * 4.5 + DOWN * 0.75)
+            crowd = Annulus(inner_radius=0.34, outer_radius=0.33 + 0.38 * 3 + 0.1, fill_color=ELECTRON, fill_opacity=0.25, stroke_width=0).move_to(k_.nucleus)
             pts = VGroup(B("1. A whole new floor, far out", 34),
                          B("2. Inner electrons block the pull", 34, ELECTRON),
                          T("(like a crowd between you and the stage)", 30, MUTED),
                          B("\u2192 weak pull on the outer electron \u2192 bigger atom", 32, GOOD)
-                         ).arrange(DOWN, aligned_edge=LEFT, buff=0.3).move_to(RIGHT * 2.4 + DOWN * 0.75)
+                         ).arrange(DOWN, aligned_edge=LEFT, buff=0.3)
+            fit(pts, 7.6).next_to(k_, RIGHT, buff=0.5)
             with self.say("Because the new floor wins. Each new floor sits much farther out. "
                           "And the inner floors of electrons stand in between, blocking part of the nucleus's pull, "
                           "like a crowd between you and the stage. "
@@ -971,7 +980,7 @@ class S07Trends(Lesson):
         self.play(FadeOut(VGroup(atoms, pms, extra, epm, unit)), run_time=0.5)
 
         # --- metallic character
-        mdef = VGroup(B("Metallic character", 40, S_COL), T("= how easily an atom GIVES AWAY electrons", 34)).arrange(RIGHT, buff=0.3)
+        mdef = fit(VGroup(B("Metallic character", 40, S_COL), T("= how easily an atom GIVES AWAY electrons", 34)).arrange(RIGHT, buff=0.3), 12.8)
         mdef.next_to(h, DOWN, buff=0.4)
         p3 = [("Na", S_COL), ("Mg", S_COL), ("Al", S_COL), ("Si", GOLD), ("P", P_COL), ("S", P_COL), ("Cl", P_COL)]
         prow = VGroup(*[ebox(s, size=1.0, stroke=c, txt=c) for s, c in p3]).arrange(RIGHT, buff=0.1).move_to(LEFT * 2.2 + UP * 0.6)
@@ -989,10 +998,10 @@ class S07Trends(Lesson):
             self.play(GrowArrow(a1), FadeIn(a1t), run_time=0.8)
             self.wait(1)
             self.play(FadeIn(tags), run_time=0.8)
-        gcol = VGroup(*[ebox(s, size=0.82, stroke=S_COL, txt=S_COL) for s in ["Li", "Na", "K", "Rb", "Cs"]]).arrange(DOWN, buff=0.06)
-        gcol.move_to(RIGHT * 4.3 + DOWN * 0.15)
+        gcol = VGroup(*[ebox(s, size=0.64, stroke=S_COL, txt=S_COL) for s in ["Li", "Na", "K", "Rb", "Cs"]]).arrange(DOWN, buff=0.05)
+        gcol.move_to(RIGHT * 4.0 + UP * 0.35)
         a2 = Arrow(gcol.get_top() + RIGHT * 0.75, gcol.get_bottom() + RIGHT * 0.75, color=GOOD, buff=0, stroke_width=6)
-        a2t = B("metallic\ncharacter\nincreases", 26, GOOD).next_to(a2, RIGHT, buff=0.15)
+        a2t = B("metallic\ncharacter\nincreases", 24, GOOD).next_to(a2, RIGHT, buff=0.15)
         with self.say("Down a group, the top floor electrons are far from the nucleus, and loosely held. Easy to give away. "
                       "So metallic character increases. That's why potassium is more reactive than sodium."):
             self.play(LaggedStart(*[FadeIn(b, shift=DOWN * 0.2) for b in gcol], lag_ratio=0.15), run_time=1.2)
@@ -1000,7 +1009,8 @@ class S07Trends(Lesson):
             self.play(Indicate(gcol[2], color=GOLD, scale_factor=1.3), run_time=1)
         nm = VGroup(B("Non-metallic character = the exact opposite", 32, P_COL),
                     T("increases across a period, decreases down a group · halogens: F > Cl > Br > I", 28)
-                    ).arrange(DOWN, buff=0.15).to_edge(DOWN, buff=1.2)
+                    ).arrange(DOWN, buff=0.15)
+        fit(nm, 12.6).move_to(DOWN * 2.2)
         with self.say("Non-metallic character is the exact opposite. It increases across a period, and decreases down a group. "
                       "Among the halogens, fluorine is the strongest electron grabber."):
             self.play(FadeIn(nm, shift=UP * 0.2), run_time=1)
@@ -1090,7 +1100,7 @@ class S07Trends(Lesson):
 # =====================================================================  8. QUIZ & OUTRO
 class S08Quiz(Lesson):
     def countdown(self, secs=5):
-        ring = Circle(radius=0.55, color=GOLD, stroke_width=8).to_edge(RIGHT, buff=0.9).shift(UP * 1.6)
+        ring = Circle(radius=0.55, color=GOLD, stroke_width=8).move_to(RIGHT * 5.6 + DOWN * 1.2)
         num = B(str(secs), 50, GOLD).move_to(ring)
         self.play(Create(ring), FadeIn(num), run_time=0.4)
         for s in range(secs - 1, -1, -1):
@@ -1119,11 +1129,11 @@ class S08Quiz(Lesson):
         ]
         for i, (qt, qs_, at, as_) in enumerate(qs):
             num = B(f"Q{i + 1}", 60, GOLD).to_edge(LEFT, buff=0.8).shift(UP * 1.6)
-            q = B(qt, 40).next_to(num, RIGHT, buff=0.5).align_to(num, UP)
+            q = fit(B(qt, 40), 10.6).next_to(num, RIGHT, buff=0.5).align_to(num, UP)
             with self.say(qs_):
                 self.play(FadeIn(num), Write(q), run_time=1.5)
             self.countdown(5)
-            ans = VGroup(T("Answer", 30, GOOD), B(at, 36)).arrange(DOWN, aligned_edge=LEFT, buff=0.2)
+            ans = fit(VGroup(T("Answer", 30, GOOD), B(at, 36)).arrange(DOWN, aligned_edge=LEFT, buff=0.2), 9.0)
             box = SurroundingRectangle(ans, buff=0.35, color=GOOD, corner_radius=0.15, stroke_width=4)
             VGroup(ans, box).next_to(q, DOWN, buff=0.8).align_to(num, LEFT)
             with self.say(as_):
@@ -1136,7 +1146,8 @@ class S08Quiz(Lesson):
                          for a, b in [("3", "basics: roll number, floors, top-floor electrons"),
                                       ("1", "story: triads → octaves → Mendeleev → Moseley"),
                                       ("2", "reasons: more protons across, new floor down")]]
-                       ).arrange(DOWN, aligned_edge=LEFT, buff=0.45).shift(UP * 0.4)
+                       ).arrange(DOWN, aligned_edge=LEFT, buff=0.45)
+        fit(recap, 12.4).shift(UP * 0.4)
         with self.say("So, was it hard? Three basics. One story. Two reasons. That is the whole chapter."):
             self.play(LaggedStart(*[FadeIn(r, shift=RIGHT * 0.4) for r in recap], lag_ratio=0.6), run_time=3.5)
         st = stamp("MYTH BUSTED", GOOD, 80).move_to(DOWN * 0.2)
